@@ -1,0 +1,86 @@
+.funding-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.funding-container h2 {
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+.purpose {
+  font-size: 14px;
+  color: #7f8c8d;
+  font-weight: normal;
+}
+
+.funding-form {
+  margin-top: 20px;
+}
+
+.funding-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.funding-table td {
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+  vertical-align: middle;
+  color: #34495e;
+}
+
+.funding-table input,
+.funding-table select {
+  width: 90%;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.funding-table input[disabled] {
+  background-color: #f4f6f8;
+  color: #7f8c8d;
+  cursor: not-allowed;
+}
+
+.progress-bar {
+  background-color: #ecf0f1;
+  height: 12px;
+  width: 90%;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #27ae60;
+  transition: width 0.3s ease;
+}
+
+.form-actions {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.submit-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submit-button:hover {
+  background-color: #2980b9;
+}

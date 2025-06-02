@@ -1,0 +1,126 @@
+.refpapers-container {
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.refpapers-container h2 {
+  margin-bottom: 10px;
+  color: #4a6baf;
+}
+
+.refpapers-container p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.refpapers-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.refpapers-table th, .refpapers-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.refpapers-table th {
+  background-color: #4a6baf;
+  color: white;
+  font-weight: 600;
+}
+
+.refpapers-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.upload-btn {
+  background-color: #4a6baf;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.upload-btn:disabled {
+  background-color: #9bb1d3;
+  cursor: not-allowed;
+}
+
+.upload-btn:hover:not(:disabled) {
+  background-color: #395494;
+}
+
+/* Modal Overlay */
+.upload-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal Box */
+.upload-modal {
+  background: white;
+  padding: 25px 30px;
+  border-radius: 8px;
+  width: 320px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.upload-modal h3 {
+  margin-bottom: 15px;
+  color: #4a6baf;
+}
+
+.file-input {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 8px 18px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  min-width: 90px;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-btn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background-color: #c0392b;
+}
+
+.upload-btn {
+  background-color: #4a6baf;
+  color: white;
+}
+
+.upload-btn:hover {
+  background-color: #395494;
+}
