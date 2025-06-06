@@ -1,0 +1,88 @@
+.create-dept-container {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  min-height: 85vh;
+
+  background-color: #f4f6f8;
+
+  padding: 20px;
+}
+
+.dept-form {
+  background-color: #ffffff;
+
+  padding: 30px 40px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+  width: 100%;
+
+  max-width: 500px;
+}
+
+.dept-form h2 {
+  text-align: center;
+
+  color: #003366;
+
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: #333;
+
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+
+  padding: 10px 12px;
+
+  font-size: 1em;
+
+  border: 1px solid #ccc;
+
+  border-radius: 6px;
+
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  width: 100%;
+
+  padding: 12px;
+
+  background-color: #003366;
+
+  color: #fff;
+
+  font-size: 1em;
+
+  border: none;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0055aa;
+}
